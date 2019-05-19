@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-05-17 09:58:22
+/* Smarty version 3.1.33, created on 2019-05-17 10:03:07
   from '/Applications/MAMP/htdocs/prestashop_1.7.5.2/modules/steavisgarantis/views/templates/front/displayFooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cde699e59a015_39715533',
+  'unifunc' => 'content_5cde6abb8a4b19_91795401',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cde699e59a015_39715533 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cde6abb8a4b19_91795401 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php if ($_smarty_tpl->tpl_vars['widgetFooter']->value) {?>
