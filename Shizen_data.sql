@@ -7,7 +7,7 @@
 #
 # Hôte: 127.0.0.1 (MySQL 5.7.21)
 # Base de données: Shizen_data
-# Temps de génération: 2019-05-19 19:11:23 +0000
+# Temps de génération: 2019-05-20 10:33:48 +0000
 # ************************************************************
 
 
@@ -532,6 +532,10 @@ VALUES
 	(1,738),
 	(1,739),
 	(1,740),
+	(1,761),
+	(1,762),
+	(1,763),
+	(1,764),
 	(2,9),
 	(2,10),
 	(2,11),
@@ -1501,6 +1505,10 @@ VALUES
 	(592,'ROLE_MOD_MODULE_PAGESNOTFOUND_DELETE'),
 	(590,'ROLE_MOD_MODULE_PAGESNOTFOUND_READ'),
 	(591,'ROLE_MOD_MODULE_PAGESNOTFOUND_UPDATE'),
+	(753,'ROLE_MOD_MODULE_PS_ADVERTISING_CREATE'),
+	(756,'ROLE_MOD_MODULE_PS_ADVERTISING_DELETE'),
+	(754,'ROLE_MOD_MODULE_PS_ADVERTISING_READ'),
+	(755,'ROLE_MOD_MODULE_PS_ADVERTISING_UPDATE'),
 	(745,'ROLE_MOD_MODULE_PS_BANNER_CREATE'),
 	(748,'ROLE_MOD_MODULE_PS_BANNER_DELETE'),
 	(746,'ROLE_MOD_MODULE_PS_BANNER_READ'),
@@ -1533,10 +1541,6 @@ VALUES
 	(516,'ROLE_MOD_MODULE_PS_CUSTOMERSIGNIN_DELETE'),
 	(514,'ROLE_MOD_MODULE_PS_CUSTOMERSIGNIN_READ'),
 	(515,'ROLE_MOD_MODULE_PS_CUSTOMERSIGNIN_UPDATE'),
-	(517,'ROLE_MOD_MODULE_PS_CUSTOMTEXT_CREATE'),
-	(520,'ROLE_MOD_MODULE_PS_CUSTOMTEXT_DELETE'),
-	(518,'ROLE_MOD_MODULE_PS_CUSTOMTEXT_READ'),
-	(519,'ROLE_MOD_MODULE_PS_CUSTOMTEXT_UPDATE'),
 	(521,'ROLE_MOD_MODULE_PS_EMAILSUBSCRIPTION_CREATE'),
 	(524,'ROLE_MOD_MODULE_PS_EMAILSUBSCRIPTION_DELETE'),
 	(522,'ROLE_MOD_MODULE_PS_EMAILSUBSCRIPTION_READ'),
@@ -2885,6 +2889,7 @@ VALUES
 	(2,54,30),
 	(2,55,31),
 	(2,56,32),
+	(3,57,1),
 	(9,21,1),
 	(9,22,2),
 	(9,23,3),
@@ -3355,7 +3360,7 @@ VALUES
 	(140,NULL,NULL,'PS_VIRTUAL_PROD_FEATURE_ACTIVE','1','0000-00-00 00:00:00','2019-05-15 18:39:26'),
 	(141,NULL,NULL,'PS_CUSTOMIZATION_FEATURE_ACTIVE','1','0000-00-00 00:00:00','0000-00-00 00:00:00'),
 	(142,NULL,NULL,'PS_CART_RULE_FEATURE_ACTIVE','1','0000-00-00 00:00:00','2019-05-16 16:34:17'),
-	(143,NULL,NULL,'PS_PACK_FEATURE_ACTIVE',NULL,'0000-00-00 00:00:00','2019-05-19 17:25:35'),
+	(143,NULL,NULL,'PS_PACK_FEATURE_ACTIVE',NULL,'0000-00-00 00:00:00','2019-05-20 12:33:05'),
 	(144,NULL,NULL,'PS_ALIAS_FEATURE_ACTIVE','1','0000-00-00 00:00:00','0000-00-00 00:00:00'),
 	(145,NULL,NULL,'PS_TAX_ADDRESS_TYPE','id_address_delivery','0000-00-00 00:00:00','0000-00-00 00:00:00'),
 	(146,NULL,NULL,'PS_SHOP_DEFAULT','1','0000-00-00 00:00:00','0000-00-00 00:00:00'),
@@ -3414,7 +3419,7 @@ VALUES
 	(200,NULL,NULL,'FOOTER_CMS','0_3|0_4','0000-00-00 00:00:00','0000-00-00 00:00:00'),
 	(201,NULL,NULL,'FOOTER_BLOCK_ACTIVATION','0_3|0_4','0000-00-00 00:00:00','0000-00-00 00:00:00'),
 	(202,NULL,NULL,'FOOTER_POWEREDBY','1','0000-00-00 00:00:00','0000-00-00 00:00:00'),
-	(203,NULL,NULL,'BLOCKADVERT_LINK','http://www.prestashop.com','0000-00-00 00:00:00','0000-00-00 00:00:00'),
+	(203,NULL,NULL,'BLOCKADVERT_LINK','http://www.prestashop.com/','0000-00-00 00:00:00','2019-05-20 09:09:01'),
 	(204,NULL,NULL,'BLOCKSTORE_IMG','store.jpg','0000-00-00 00:00:00','0000-00-00 00:00:00'),
 	(205,NULL,NULL,'BLOCKADVERT_IMG_EXT','jpg','0000-00-00 00:00:00','0000-00-00 00:00:00'),
 	(206,NULL,NULL,'MOD_BLOCKTOPMENU_ITEMS','CAT3,CAT6,CAT9','0000-00-00 00:00:00','2019-05-15 18:39:31'),
@@ -3575,7 +3580,11 @@ VALUES
 	(365,NULL,NULL,'steavisgarantis_normalBehaviour','1','2019-05-17 09:43:55','2019-05-17 09:43:55'),
 	(366,NULL,NULL,'steavisgarantis_widgetPosition','none','2019-05-17 09:43:56','2019-05-17 09:43:56'),
 	(367,NULL,NULL,'steavisgarantis_footerLink','1','2019-05-17 09:43:56','2019-05-17 09:43:56'),
-	(368,NULL,NULL,'steavisgarantis_certificateUrl_1','https://www.societe-des-avis-garantis.fr/?apiKeyError','2019-05-17 09:58:22','2019-05-17 09:58:22');
+	(368,NULL,NULL,'steavisgarantis_certificateUrl_1','https://www.societe-des-avis-garantis.fr/?apiKeyError','2019-05-17 09:58:22','2019-05-17 09:58:22'),
+	(369,NULL,NULL,'BLOCKADVERT_TITLE','PrestaShop','2019-05-20 09:09:01','2019-05-20 09:09:01'),
+	(370,NULL,NULL,'BLOCKADVERT_LEFT_COLUMN','1','2019-05-20 09:09:01','2019-05-20 09:09:01'),
+	(371,NULL,NULL,'BLOCKADVERT_RIGHT_COLUMN','1','2019-05-20 09:09:01','2019-05-20 09:09:01'),
+	(372,NULL,NULL,'MULTIPURPOSE_STR','Test','2019-05-20 09:36:27','2019-05-20 09:55:48');
 
 /*!40000 ALTER TABLE `db_configuration` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -3723,8 +3732,8 @@ VALUES
 	(280,1,'',NULL),
 	(281,1,'Rupture de stock',NULL),
 	(306,1,'','2019-05-15 21:03:37'),
-	(357,1,'33576ca14e39bba060065f9f0c94c966.jpg','2019-05-17 01:11:25'),
-	(358,1,'','2019-05-15 22:47:08'),
+	(357,1,'e77161ebbc57dd74839fe76f3420304d.png','2019-05-20 11:48:09'),
+	(358,1,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','2019-05-20 11:49:10'),
 	(359,1,'','2019-05-15 22:47:08');
 
 /*!40000 ALTER TABLE `db_configuration_lang` ENABLE KEYS */;
@@ -3785,7 +3794,11 @@ VALUES
 	(27,1,1,6,2,0,'2019-05-17 01:19:03',''),
 	(28,1,1,7,4,0,'2019-05-17 09:01:24','http://localhost:8888/prestashop_1.7.5.2/commande'),
 	(29,1,1,7,2,0,'2019-05-17 09:40:24',''),
-	(30,1,1,10,2,0,'2019-05-17 13:08:36','');
+	(30,1,1,10,2,0,'2019-05-17 13:08:36',''),
+	(31,1,1,10,2,0,'2019-05-19 21:48:11',''),
+	(32,1,1,10,2,0,'2019-05-20 09:03:08',''),
+	(33,1,1,10,2,0,'2019-05-20 09:46:03',''),
+	(34,1,1,10,2,0,'2019-05-20 11:49:36','');
 
 /*!40000 ALTER TABLE `db_connections` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -5060,7 +5073,50 @@ VALUES
 	(1228,37,'http://localhost:8888/prestashop_1.7.5.2/16-contenants-vides','localhost:8888/prestashop_1.7.5.2/contenants-vides/55-becher-gradues-en-plastique.html','','2019-05-19 17:22:44'),
 	(1229,37,'http://localhost:8888/prestashop_1.7.5.2/9-la-boutique','localhost:8888/prestashop_1.7.5.2/16-contenants-vides','','2019-05-19 17:22:50'),
 	(1230,37,'http://localhost:8888/prestashop_1.7.5.2/9-la-boutique','localhost:8888/prestashop_1.7.5.2/16-contenants-vides','','2019-05-19 17:25:28'),
-	(1231,37,'http://localhost:8888/prestashop_1.7.5.2/9-la-boutique','localhost:8888/prestashop_1.7.5.2/16-contenants-vides','','2019-05-19 17:25:38');
+	(1231,37,'http://localhost:8888/prestashop_1.7.5.2/9-la-boutique','localhost:8888/prestashop_1.7.5.2/16-contenants-vides','','2019-05-19 17:25:38'),
+	(1232,37,'http://localhost:8888/','localhost:8888/prestashop_1.7.5.2/','','2019-05-19 21:47:58'),
+	(1233,37,'http://localhost:8888/prestashop_1.7.5.2/multipurpose/task','localhost:8888/prestashop_1.7.5.2/','','2019-05-19 21:51:31'),
+	(1234,37,'http://localhost:8888/','localhost:8888/prestashop_1.7.5.2/','','2019-05-19 21:53:33'),
+	(1235,37,'http://localhost:8888/','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:02:56'),
+	(1236,37,'http://localhost:8888/prestashop_1.7.5.2/modules/multipurpose/task','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:04:51'),
+	(1237,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/9-la-boutique','','2019-05-20 09:04:56'),
+	(1238,37,'http://localhost:8888/prestashop_1.7.5.2/9-la-boutique','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 09:05:03'),
+	(1239,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 09:05:07'),
+	(1240,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:06:20'),
+	(1241,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 09:10:02'),
+	(1242,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/6-nos-kits','','2019-05-20 09:10:03'),
+	(1243,37,'http://localhost:8888/prestashop_1.7.5.2/6-nos-kits','localhost:8888/prestashop_1.7.5.2/9-la-boutique','','2019-05-20 09:10:15'),
+	(1244,37,'http://localhost:8888/prestashop_1.7.5.2/9-la-boutique','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 09:10:18'),
+	(1245,37,'http://localhost:8888/prestashop_1.7.5.2/9-la-boutique','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 09:20:08'),
+	(1246,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:20:08'),
+	(1247,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:20:31'),
+	(1248,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:36:32'),
+	(1249,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:39:37'),
+	(1250,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:44:20'),
+	(1251,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:45:44'),
+	(1252,37,'http://localhost:8888/prestashop_1.7.5.2/modules/multipurpose/task','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:53:39'),
+	(1253,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 09:55:04'),
+	(1254,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box?selected_filters=modules%2Fmultipurpose%2Ftask','localhost:8888/prestashop_1.7.5.2/9-la-boutique','','2019-05-20 09:56:03'),
+	(1255,37,'http://localhost:8888/prestashop_1.7.5.2/9-la-boutique','localhost:8888/prestashop_1.7.5.2/6-nos-kits','','2019-05-20 09:56:06'),
+	(1256,37,'http://localhost:8888/prestashop_1.7.5.2/modules/multipurpose/task','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 09:56:24'),
+	(1257,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/6-nos-kits','','2019-05-20 10:30:19'),
+	(1258,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/9-la-boutique','','2019-05-20 10:30:19'),
+	(1259,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/9-la-boutique','','2019-05-20 11:48:11'),
+	(1260,37,'http://localhost:8888/prestashop_1.7.5.2/9-la-boutique','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 11:48:12'),
+	(1261,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 11:48:28'),
+	(1262,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 11:48:38'),
+	(1263,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 11:49:14'),
+	(1264,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 11:49:17'),
+	(1265,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 11:49:20'),
+	(1266,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 11:49:22'),
+	(1267,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 11:49:31'),
+	(1268,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 11:52:23'),
+	(1269,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 12:29:53'),
+	(1270,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 12:30:00'),
+	(1271,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/nos-box/57-box.html','','2019-05-20 12:30:02'),
+	(1272,37,'http://localhost:8888/prestashop_1.7.5.2/nos-box/57-box.html','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 12:30:06'),
+	(1273,37,'http://localhost:8888/prestashop_1.7.5.2/3-nos-box','localhost:8888/prestashop_1.7.5.2/','','2019-05-20 12:30:49'),
+	(1274,37,'http://localhost:8888/prestashop_1.7.5.2/','localhost:8888/prestashop_1.7.5.2/3-nos-box','','2019-05-20 12:30:55');
 
 /*!40000 ALTER TABLE `db_connections_source` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -6715,7 +6771,7 @@ LOCK TABLES `db_employee` WRITE;
 
 INSERT INTO `db_employee` (`id_employee`, `id_profile`, `id_lang`, `lastname`, `firstname`, `email`, `passwd`, `last_passwd_gen`, `stats_date_from`, `stats_date_to`, `stats_compare_from`, `stats_compare_to`, `stats_compare_option`, `preselect_date_range`, `bo_color`, `bo_theme`, `bo_css`, `default_tab`, `bo_width`, `bo_menu`, `active`, `optin`, `id_last_order`, `id_last_customer_message`, `id_last_customer`, `last_connection_date`, `reset_password_token`, `reset_password_validity`)
 VALUES
-	(1,1,1,'Shop','Shizen','ShizenShop@gmail.com','$2y$10$4DCjXve0yJ8Aoel/EhI2.eCb/IRaN/gglNX6/jYPy/R5mIvTrjcfu','2019-05-15 12:39:26','2019-04-15','2019-05-15','0000-00-00','0000-00-00',1,NULL,NULL,'default','theme.css',1,0,1,1,1,6,0,1,NULL,NULL,'0000-00-00 00:00:00');
+	(1,1,1,'Shop','Shizen','ShizenShop@gmail.com','$2y$10$4DCjXve0yJ8Aoel/EhI2.eCb/IRaN/gglNX6/jYPy/R5mIvTrjcfu','2019-05-15 12:39:26','2019-04-15','2019-05-15','0000-00-00','0000-00-00',1,NULL,NULL,'default','theme.css',1,0,1,1,1,7,0,1,NULL,NULL,'0000-00-00 00:00:00');
 
 /*!40000 ALTER TABLE `db_employee` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -7525,7 +7581,8 @@ VALUES
 	(232,'actionObjectSpecificPriceCoreAddAfter','actionObjectSpecificPriceCoreAddAfter','',1),
 	(233,'actionObjectSpecificPriceCoreUpdateAfter','actionObjectSpecificPriceCoreUpdateAfter','',1),
 	(234,'displayProductTab','displayProductTab','',1),
-	(235,'displayProductTabContent','displayProductTabContent','',1);
+	(235,'displayProductTabContent','displayProductTabContent','',1),
+	(236,'displayAfterDescription','displayAfterDescription','',1);
 
 /*!40000 ALTER TABLE `db_hook` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -7680,7 +7737,6 @@ VALUES
 	(13,1,199,1),
 	(14,1,200,1),
 	(14,1,201,1),
-	(16,1,202,1),
 	(17,1,41,1),
 	(17,1,114,1),
 	(17,1,203,1),
@@ -7702,6 +7758,7 @@ VALUES
 	(18,1,207,1),
 	(20,1,13,1),
 	(20,1,14,1),
+	(20,1,202,1),
 	(21,1,229,1),
 	(22,1,35,1),
 	(22,1,132,1),
@@ -7734,17 +7791,17 @@ VALUES
 	(55,1,232,1),
 	(55,1,233,1),
 	(62,1,195,1),
+	(64,1,7,1),
 	(3,1,185,2),
 	(3,1,191,2),
 	(4,1,192,2),
 	(5,1,186,2),
 	(13,1,229,2),
 	(14,1,35,2),
-	(16,1,13,2),
 	(17,1,183,2),
 	(18,1,12,2),
-	(20,1,202,2),
 	(23,1,76,2),
+	(23,1,202,2),
 	(24,1,14,2),
 	(24,1,21,2),
 	(27,1,203,2),
@@ -7754,6 +7811,7 @@ VALUES
 	(40,1,41,2),
 	(50,1,193,2),
 	(54,1,132,2),
+	(55,1,13,2),
 	(57,1,17,2),
 	(57,1,18,2),
 	(57,1,24,2),
@@ -7763,23 +7821,22 @@ VALUES
 	(5,1,192,3),
 	(12,1,35,3),
 	(15,1,229,3),
-	(23,1,202,3),
 	(26,1,14,3),
 	(32,1,49,3),
-	(55,1,13,3),
+	(57,1,13,3),
 	(60,1,17,3),
 	(60,1,18,3),
 	(60,1,24,3),
+	(64,1,12,3),
 	(5,1,185,4),
 	(6,1,191,4),
 	(26,1,229,4),
 	(33,1,49,4),
-	(57,1,13,4),
+	(60,1,13,4),
 	(63,1,14,4),
 	(34,1,49,5),
-	(60,1,13,5),
+	(62,1,13,5),
 	(35,1,49,6),
-	(62,1,13,6),
 	(36,1,49,7),
 	(37,1,49,8),
 	(38,1,49,9),
@@ -7869,7 +7926,8 @@ VALUES
 	(57,53,1,1),
 	(59,54,1,1),
 	(60,55,1,1),
-	(61,56,1,1);
+	(61,56,1,1),
+	(62,57,1,1);
 
 /*!40000 ALTER TABLE `db_image` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -7922,7 +7980,8 @@ VALUES
 	(57,1,''),
 	(59,1,''),
 	(60,1,''),
-	(61,1,'');
+	(61,1,''),
+	(62,1,'');
 
 /*!40000 ALTER TABLE `db_image_lang` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -7977,7 +8036,8 @@ VALUES
 	(53,57,1,1),
 	(54,59,1,1),
 	(55,60,1,1),
-	(56,61,1,1);
+	(56,61,1,1),
+	(57,62,1,1);
 
 /*!40000 ALTER TABLE `db_image_shop` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -8032,73 +8092,6 @@ CREATE TABLE `db_import_match` (
   PRIMARY KEY (`id_import_match`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-
-
-# Affichage de la table db_info
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `db_info`;
-
-CREATE TABLE `db_info` (
-  `id_info` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (`id_info`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-LOCK TABLES `db_info` WRITE;
-/*!40000 ALTER TABLE `db_info` DISABLE KEYS */;
-
-INSERT INTO `db_info` (`id_info`)
-VALUES
-	(1);
-
-/*!40000 ALTER TABLE `db_info` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
-# Affichage de la table db_info_lang
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `db_info_lang`;
-
-CREATE TABLE `db_info_lang` (
-  `id_info` int(10) unsigned NOT NULL,
-  `id_shop` int(10) unsigned NOT NULL,
-  `id_lang` int(10) unsigned NOT NULL,
-  `text` text NOT NULL,
-  PRIMARY KEY (`id_info`,`id_lang`,`id_shop`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-LOCK TABLES `db_info_lang` WRITE;
-/*!40000 ALTER TABLE `db_info_lang` DISABLE KEYS */;
-
-INSERT INTO `db_info_lang` (`id_info`, `id_shop`, `id_lang`, `text`)
-VALUES
-	(1,1,1,'<h2>Custom Text Block</h2>\n<p><strong class=\"dark\">Lorem ipsum dolor sit amet conse ctetu</strong></p>\n<p>Sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>');
-
-/*!40000 ALTER TABLE `db_info_lang` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
-# Affichage de la table db_info_shop
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `db_info_shop`;
-
-CREATE TABLE `db_info_shop` (
-  `id_info` int(10) unsigned NOT NULL,
-  `id_shop` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`id_info`,`id_shop`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-LOCK TABLES `db_info_shop` WRITE;
-/*!40000 ALTER TABLE `db_info_shop` DISABLE KEYS */;
-
-INSERT INTO `db_info_shop` (`id_info`, `id_shop`)
-VALUES
-	(1,1);
-
-/*!40000 ALTER TABLE `db_info_shop` ENABLE KEYS */;
-UNLOCK TABLES;
 
 
 # Affichage de la table db_lang
@@ -8458,7 +8451,8 @@ VALUES
 	(53,1,1,3,5),
 	(54,1,1,11,14),
 	(55,1,1,1,2),
-	(56,1,1,1,2);
+	(56,1,1,1,2),
+	(57,1,1,16,20);
 
 /*!40000 ALTER TABLE `db_layered_price_index` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -8859,7 +8853,17 @@ VALUES
 	(215,1,0,'Création : Category','Category',16,1,'2019-05-19 17:17:44','2019-05-19 17:17:44'),
 	(216,1,0,'Product modification','Product',55,1,'2019-05-19 17:22:38','2019-05-19 17:22:38'),
 	(217,1,0,'Product modification','Product',56,1,'2019-05-19 17:25:22','2019-05-19 17:25:22'),
-	(218,1,0,'Product modification','Product',56,1,'2019-05-19 17:25:35','2019-05-19 17:25:35');
+	(218,1,0,'Product modification','Product',56,1,'2019-05-19 17:25:35','2019-05-19 17:25:35'),
+	(219,1,0,'Error: parameter \\\"to\\\" is corrupted','',0,1,'2019-05-20 09:36:27','2019-05-20 09:36:27'),
+	(220,1,0,'Error: parameter \\\"to\\\" is corrupted','',0,1,'2019-05-20 09:55:48','2019-05-20 09:55:48'),
+	(221,3,0,'Data from PrestaShop Addons is invalid, and cannot fallback on cache. ','',0,1,'2019-05-20 11:12:40','2019-05-20 11:12:40'),
+	(222,1,0,'Product modification','Product',57,1,'2019-05-20 12:29:42','2019-05-20 12:29:42'),
+	(223,1,0,'Product modification','Product',57,1,'2019-05-20 12:29:44','2019-05-20 12:29:44'),
+	(224,1,0,'Product modification','Product',57,1,'2019-05-20 12:29:45','2019-05-20 12:29:45'),
+	(225,1,0,'Product modification','Product',57,1,'2019-05-20 12:29:51','2019-05-20 12:29:51'),
+	(226,1,0,'Product modification','Product',57,1,'2019-05-20 12:30:45','2019-05-20 12:30:45'),
+	(227,1,0,'Product modification','Product',57,1,'2019-05-20 12:30:47','2019-05-20 12:30:47'),
+	(228,1,0,'Product modification','Product',57,1,'2019-05-20 12:33:05','2019-05-20 12:33:05');
 
 /*!40000 ALTER TABLE `db_log` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -9186,7 +9190,6 @@ VALUES
 	(13,'ps_currencyselector',1,'2.0.0'),
 	(14,'ps_customeraccountlinks',1,'3.1.0'),
 	(15,'ps_customersignin',1,'2.0.2'),
-	(16,'ps_customtext',1,'4.1.0'),
 	(17,'ps_emailsubscription',1,'2.3.0'),
 	(18,'ps_facetedsearch',1,'2.2.0'),
 	(20,'ps_imageslider',1,'3.0.0'),
@@ -9227,7 +9230,8 @@ VALUES
 	(57,'ps_bestsellers',1,'1.0.3'),
 	(60,'ps_newproducts',1,'1.0.1'),
 	(62,'ps_banner',1,'2.1.0'),
-	(63,'steavisgarantis',1,'5.1.3');
+	(63,'steavisgarantis',1,'5.1.3'),
+	(64,'ps_advertising',1,'1.0.2');
 
 /*!40000 ALTER TABLE `db_module` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -9305,10 +9309,6 @@ VALUES
 	(1,514),
 	(1,515),
 	(1,516),
-	(1,517),
-	(1,518),
-	(1,519),
-	(1,520),
 	(1,521),
 	(1,522),
 	(1,523),
@@ -9472,7 +9472,11 @@ VALUES
 	(1,749),
 	(1,750),
 	(1,751),
-	(1,752);
+	(1,752),
+	(1,753),
+	(1,754),
+	(1,755),
+	(1,756);
 
 /*!40000 ALTER TABLE `db_module_access` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -9620,9 +9624,6 @@ VALUES
 	(15,1,1),
 	(15,1,2),
 	(15,1,3),
-	(16,1,1),
-	(16,1,2),
-	(16,1,3),
 	(17,1,1),
 	(17,1,2),
 	(17,1,3),
@@ -9745,7 +9746,10 @@ VALUES
 	(62,1,3),
 	(63,1,1),
 	(63,1,2),
-	(63,1,3);
+	(63,1,3),
+	(64,1,1),
+	(64,1,2),
+	(64,1,3);
 
 /*!40000 ALTER TABLE `db_module_group` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -9775,7 +9779,8 @@ VALUES
 	(3,1,56,'2019-05-15 22:32:46','2019-05-15 22:33:55'),
 	(4,1,57,'2019-05-15 22:38:08','2019-05-15 22:38:08'),
 	(5,1,61,'2019-05-15 22:41:10','2019-05-15 22:41:10'),
-	(6,1,62,'2019-05-15 22:47:21','2019-05-15 22:47:21');
+	(6,1,62,'2019-05-15 22:47:21','2019-05-15 22:47:21'),
+	(7,1,65,'2019-05-20 09:36:19','2019-05-20 09:55:37');
 
 /*!40000 ALTER TABLE `db_module_history` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -9869,7 +9874,8 @@ VALUES
 	(57,1,7),
 	(60,1,7),
 	(62,1,7),
-	(63,1,7);
+	(63,1,7),
+	(64,1,7);
 
 /*!40000 ALTER TABLE `db_module_shop` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -10778,7 +10784,8 @@ VALUES
 	(53,0,0,15,1,1,0,0,'','','',0.000000,0,1,NULL,0,3.750000,0.000000,'',0.000000,0.00,'','','',0.000000,0.000000,0.000000,0.000000,2,1,0,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,0,0,'2019-05-19 17:06:42','2019-05-19 17:14:05',0,3,1),
 	(54,0,0,15,1,1,0,0,'','','',0.000000,0,1,NULL,0,11.250000,0.000000,'',0.000000,0.00,'','','',0.000000,0.000000,0.000000,0.000000,2,1,0,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,0,0,'2019-05-19 17:14:12','2019-05-19 17:15:56',0,3,1),
 	(55,0,0,16,1,1,0,0,'','','',0.000000,0,1,NULL,0,1.416667,0.000000,'',0.000000,0.00,'','','',0.000000,0.000000,0.000000,0.000000,2,1,0,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,0,0,'2019-05-19 17:20:34','2019-05-19 17:22:38',0,3,1),
-	(56,0,0,16,1,1,0,0,'','','',0.000000,0,1,NULL,0,1.250000,0.000000,'',0.000000,0.00,'','','',0.000000,0.000000,0.000000,0.000000,2,1,0,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,0,0,'2019-05-19 17:23:43','2019-05-19 17:25:35',0,3,1);
+	(56,0,0,16,1,1,0,0,'','','',0.000000,0,1,NULL,0,1.250000,0.000000,'',0.000000,0.00,'','','',0.000000,0.000000,0.000000,0.000000,2,1,0,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,0,0,'2019-05-19 17:23:43','2019-05-19 17:25:35',0,3,1),
+	(57,0,0,3,1,1,0,0,'','','',0.000000,0,1,NULL,0,16.666667,0.000000,'',0.000000,0.00,'','','',0.000000,0.000000,0.000000,0.000000,2,1,0,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,0,0,'2019-05-20 12:00:37','2019-05-20 12:33:05',0,3,1);
 
 /*!40000 ALTER TABLE `db_product` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -11011,7 +11018,8 @@ VALUES
 	(53,1,1,'','<p class=\"p1\"><span class=\"s1\">Cet extrait s’utilise comme actif purifiant dans les soins «maison» pour peaux à problèmes et dans les déodorants, et également pour ses vertus apaisantes</span></p>','barbe-de-jupiter','','','','BARBE DE JUPITER','','','',''),
 	(54,1,1,'','<p class=\"p1\"><span class=\"s1\">Purifiante, cette absolue s’emploie dans la préparation des soins pour les peaux à problèmes. son odeur balsamique et vanillée est un délice !</span></p>','benjoin-de-siam','','','','BENJOIN DE SIAM','','','',''),
 	(55,1,1,'','<p class=\"p1\"><span class=\"s1\">Ce verre doseur gradué existe en 100 ml, 500 ml et 2 L pour mesurer tous vos liquides. Graduations tous les 5 ml pour le 100 ml, graduations tous les 25 ml pour le 500 ml, tous les 50 ml pour le 2 L</span></p>','becher-gradues-en-plastique','','','','BECHER GRADUES EN PLASTIQUE','','','',''),
-	(56,1,1,'','<p class=\"p1\"><span class=\"s1\">Ce lot de cinq pipettes 3 ml permet de mesurer des ingrédients cosmétiques liquides (même visqueux) en petite quantité et de transférer ses préparations en toute facilité grâce à un système de piston.</span></p>','pipettes-graduees-3ml','','','','PIPETTES GRADUEES 3ML','','','','');
+	(56,1,1,'','<p class=\"p1\"><span class=\"s1\">Ce lot de cinq pipettes 3 ml permet de mesurer des ingrédients cosmétiques liquides (même visqueux) en petite quantité et de transférer ses préparations en toute facilité grâce à un système de piston.</span></p>','pipettes-graduees-3ml','','','','PIPETTES GRADUEES 3ML','','','',''),
+	(57,1,1,'','','box','','','','BOX 1 MOIS','','','','');
 
 /*!40000 ALTER TABLE `db_product_lang` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -11128,7 +11136,8 @@ VALUES
 	(53,1,15,1,0,0,0.000000,1,NULL,0,3.750000,0.000000,'',0.000000,0.00,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,'2019-05-19 17:06:42','2019-05-19 17:14:05',3),
 	(54,1,15,1,0,0,0.000000,1,NULL,0,11.250000,0.000000,'',0.000000,0.00,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,'2019-05-19 17:14:12','2019-05-19 17:15:56',3),
 	(55,1,16,1,0,0,0.000000,1,NULL,0,1.416667,0.000000,'',0.000000,0.00,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,'2019-05-19 17:20:34','2019-05-19 17:22:38',3),
-	(56,1,16,1,0,0,0.000000,1,NULL,0,1.250000,0.000000,'',0.000000,0.00,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,'2019-05-19 17:23:43','2019-05-19 17:25:35',3);
+	(56,1,16,1,0,0,0.000000,1,NULL,0,1.250000,0.000000,'',0.000000,0.00,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,'2019-05-19 17:23:43','2019-05-19 17:25:35',3),
+	(57,1,3,1,0,0,0.000000,1,NULL,0,16.666667,0.000000,'',0.000000,0.00,0,0,0,1,'301-category',0,1,'0000-00-00',0,'new',1,1,'both',0,0,'2019-05-20 12:00:37','2019-05-20 12:33:05',3);
 
 /*!40000 ALTER TABLE `db_product_shop` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -12595,7 +12604,10 @@ VALUES
 	(56,3028,3),
 	(56,3033,6),
 	(56,3034,6),
-	(56,3032,7);
+	(56,3032,7),
+	(57,3051,3),
+	(57,3057,6),
+	(57,3050,9);
 
 /*!40000 ALTER TABLE `db_search_index` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -12689,6 +12701,7 @@ VALUES
 	(2594,1,1,'bouche'),
 	(1549,1,1,'boutique'),
 	(1710,1,1,'boutons'),
+	(3050,1,1,'box'),
 	(1702,1,1,'brah1'),
 	(1701,1,1,'brahmi'),
 	(2022,1,1,'brillant'),
@@ -12822,16 +12835,19 @@ VALUES
 	(1630,1,1,'masc1'),
 	(1559,1,1,'mascara'),
 	(2012,1,1,'masques'),
+	(3056,1,1,'mensuelle'),
 	(1963,1,1,'merveille'),
 	(3025,1,1,'mesurer'),
 	(1521,1,1,'miel'),
 	(1640,1,1,'miel1'),
 	(2882,1,1,'mixtes'),
+	(3057,1,1,'mois'),
 	(2780,1,1,'moussant'),
 	(2243,1,1,'muscles'),
 	(2771,1,1,'neutre'),
 	(2588,1,1,'noble'),
 	(2513,1,1,'nombreuses'),
+	(3051,1,1,'nos'),
 	(2721,1,1,'nourrir'),
 	(2222,1,1,'odeur'),
 	(2220,1,1,'organisme'),
@@ -13182,7 +13198,8 @@ VALUES
 	(116,53,'id_shop;id_currency;id_country;id_group'),
 	(120,54,'id_shop;id_currency;id_country;id_group'),
 	(121,55,'id_shop;id_currency;id_country;id_group'),
-	(122,56,'id_shop;id_currency;id_country;id_group');
+	(122,56,'id_shop;id_currency;id_country;id_group'),
+	(123,57,'id_shop;id_currency;id_country;id_group');
 
 /*!40000 ALTER TABLE `db_specific_price_priority` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -13771,7 +13788,8 @@ VALUES
 	(103,53,0,1,0,85,0,0,0,2,''),
 	(104,54,0,1,0,65,0,0,0,2,''),
 	(105,55,0,1,0,41,0,0,0,2,''),
-	(106,56,0,1,0,0,0,0,0,2,'');
+	(106,56,0,1,0,0,0,0,0,2,''),
+	(107,57,0,1,0,100,0,0,0,2,'');
 
 /*!40000 ALTER TABLE `db_stock_available` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -13835,7 +13853,8 @@ VALUES
 	(25,101,NULL,NULL,11,1,'Shop','Shizen',22,'2019-05-19 16:47:02',1,0.000000,0.000000,0.000000,NULL),
 	(26,103,NULL,NULL,11,1,'Shop','Shizen',85,'2019-05-19 17:07:59',1,0.000000,0.000000,0.000000,NULL),
 	(27,104,NULL,NULL,11,1,'Shop','Shizen',65,'2019-05-19 17:15:56',1,0.000000,0.000000,0.000000,NULL),
-	(28,105,NULL,NULL,11,1,'Shop','Shizen',41,'2019-05-19 17:22:38',1,0.000000,0.000000,0.000000,NULL);
+	(28,105,NULL,NULL,11,1,'Shop','Shizen',41,'2019-05-19 17:22:38',1,0.000000,0.000000,0.000000,NULL),
+	(29,107,NULL,NULL,11,1,'Shop','Shizen',100,'2019-05-20 12:29:51',1,0.000000,0.000000,0.000000,NULL);
 
 /*!40000 ALTER TABLE `db_stock_mvt` ENABLE KEYS */;
 UNLOCK TABLES;
